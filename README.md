@@ -1,0 +1,1 @@
+add getLogs()--- to querry and display logs in UI
