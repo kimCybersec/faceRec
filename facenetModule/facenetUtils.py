@@ -25,7 +25,7 @@ def getEmbedding(model, face):
     return embedding[0]
 
 def matches(knownEmbedding, candidateEmbedding, threshold=0.2):
-    score = cosine_similarity([knownEmbedding1], [candidateEmbedding])[0][0]
+    score = cosine_similarity([knownEmbedding], [candidateEmbedding])[0][0]
     print(f"[+] Similarity score: {score}")
     return score >= threshold
 
